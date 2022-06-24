@@ -1,0 +1,12 @@
+---
+- name: ""
+  become: true
+  gather_facts: true
+  remote_user: ubuntu
+  hosts: recette
+
+#  vars_files:
+#    - vars/vars.yml
+
+  roles:
+#    - users
